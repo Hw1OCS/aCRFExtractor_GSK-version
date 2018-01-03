@@ -1,0 +1,7 @@
+exportPattern("^[[:alpha:]]+")
+export(run_aCRFExtractor)
+export(get_finalaCRFpages)
+export(get_linkPages)
+export(get_pgsSpecialVars)
+export(get_sdtmVars_pgNbr)
+export(preprocess_crf)

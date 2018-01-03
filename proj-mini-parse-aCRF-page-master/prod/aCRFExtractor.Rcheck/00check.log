@@ -1,0 +1,110 @@
+* using log directory ‘/Users/workuhm/Desktop/Data Science/awash_analytics/proj-mini-parse-aCRF-page/prod/aCRFExtractor.Rcheck’
+* using R version 3.3.3 (2017-03-06)
+* using platform: x86_64-apple-darwin13.4.0 (64-bit)
+* using session charset: UTF-8
+* using options ‘--no-manual --as-cran’
+* checking for file ‘aCRFExtractor/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘aCRFExtractor’ version ‘0.1.0’
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘aCRFExtractor’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Malformed Title field: should not end in a period.
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+get_finalaCRFpages: no visible binding for global variable ‘domain’
+get_finalaCRFpages: no visible binding for global variable ‘sdtm_vars’
+get_finalaCRFpages: no visible global function definition for
+  ‘str_detect’
+get_finalaCRFpages: no visible global function definition for
+  ‘str_replace_all’
+get_linkPages: no visible global function definition for
+  ‘str_extract_all’
+get_linkPages: no visible global function definition for ‘str_trim’
+get_linkPages: no visible binding for global variable
+  ‘domain_DefOrigin_VarTab_filtered’
+get_pgsSpecialVars: no visible global function definition for
+  ‘str_trim’
+get_pgsSpecialVars: no visible global function definition for
+  ‘str_detect’
+get_sdtmVars_pgNbr: no visible binding for global variable ‘page_nbr’
+get_sdtmVars_pgNbr: no visible global function definition for
+  ‘str_detect’
+get_sdtmVars_pgNbr: no visible global function definition for ‘unnest’
+get_sdtmVars_pgNbr: no visible binding for global variable ‘sdtm_vars’
+get_sdtmVars_pgNbr: no visible global function definition for
+  ‘write.xlsx’
+get_sdtmVars_pgNbr: no visible binding for global variable ‘output_dir’
+get_sdtmVars_pgNbr: no visible binding for global variable ‘studyid’
+preprocess_crf: no visible global function definition for ‘str_detect’
+run_aCRFExtractor: no visible binding for global variable ‘pdftools’
+run_aCRFExtractor: no visible binding for global variable ‘stringr’
+run_aCRFExtractor: no visible binding for global variable ‘tidyr’
+run_aCRFExtractor: no visible binding for global variable ‘xlsx’
+run_aCRFExtractor: no visible binding for global variable ‘sqldf’
+run_aCRFExtractor: no visible binding for global variable ‘Origin’
+run_aCRFExtractor: no visible global function definition for
+  ‘str_extract’
+run_aCRFExtractor: no visible binding for global variable
+  ‘domain_DefOrigin_VarTab_filtered’
+run_aCRFExtractor: no visible binding for global variable ‘Domain’
+run_aCRFExtractor: no visible binding for global variable ‘studyid’
+run_aCRFExtractor: no visible global function definition for
+  ‘str_replace_all’
+run_aCRFExtractor: no visible binding for global variable ‘output_dir’
+Undefined global functions or variables:
+  Domain Origin domain domain_DefOrigin_VarTab_filtered output_dir
+  page_nbr pdftools sdtm_vars sqldf str_detect str_extract
+  str_extract_all str_replace_all str_trim stringr studyid tidyr unnest
+  write.xlsx xlsx
+
+Found the following assignments to the global environment:
+File ‘aCRFExtractor/R/aCRFExtractor_mainFn.R’:
+  assign(x = "studyid", value = readline(prompt = "Enter StudyId: "), 
+    envir = .GlobalEnv)
+  assign(x = "output_dir", value = dirname(defOrig_fileName), envir = .GlobalEnv)
+  assign(x = "domain_DefOrigin_VarTab_filtered", value = domain_DefOrigin[!(domain_DefOrigin %in% 
+    c(domain_DefOrigin_supps, domain_DefOrigin_Tdomains, "SE", 
+        "RELREC"))], envir = .GlobalEnv)
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  ‘get_finalaCRFpages’ ‘get_linkPages’ ‘get_pgsSpecialVars’
+  ‘get_sdtmVars_pgNbr’ ‘preprocess_crf’
+All user-level objects in a package should have documentation entries.
+See chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... OK
+* DONE
+Status: 1 WARNING, 2 NOTEs

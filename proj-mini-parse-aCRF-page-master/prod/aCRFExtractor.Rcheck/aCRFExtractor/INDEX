@@ -1,0 +1,6 @@
+run_aCRFExtractor       Extracts page numbers of SDTM variables
+                        available in manually created aCRF file. The
+                        output is used for creation of Define XML file.
+                        The input files (e.g., studyid, aCRF file, and
+                        Define Origin file) are taken from a user via
+                        console
